@@ -1,0 +1,10 @@
+git init --- para un directorio de trabajo nuevo
+git status -s --- me muestra las filas que estoy siguiendo (los de la carpeta en ppio)
+git add nombreArchivo --- agrego a staging area una fila puntual
+git add . --- manda todas las filas de la carpeta en status "?" o "M" a la staging area
+git commit -m "Mensaje" --- paso todas las filas en staging area hacia local repo
+git log --oneline --- me lista todos los commits realizados con su código
+git reset --hard SHA --- me permite volver a un estado anterior de mi fila segun codigo SHA
+git remote add origin https://github.com/jadosfer/Python-3.git
+ --- copio ambas lineas desde github 
+git push -u origin master   --- para enlazar repo local con repo en github
